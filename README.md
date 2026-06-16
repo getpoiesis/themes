@@ -1,0 +1,118 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/phi-mono-white.svg">
+    <img alt="φ" src="assets/phi-mono-black.svg" width="128">
+  </picture>
+</p>
+
+<p align="center"><em>Community color themes for φ.</em></p>
+
+<p align="center">
+  A calm, local-first desktop writing app for books, poetry, and essays.<br>
+  These are color themes you can install into it — one JSON file each.
+</p>
+
+<p align="center">
+  <a href="https://getpoiesis.com">Website</a> ·
+  <a href="#the-themes">Themes</a> ·
+  <a href="#install-a-theme">Install</a> ·
+  <a href="#write-your-own">Write your own</a> ·
+  <a href="./CONTRIBUTING.md">Contribute</a>
+</p>
+
+---
+
+## What these are
+
+φ ships with one built-in theme, **Zinc** (the official look — neutral grays, a
+pure white page in light mode and a pure black page in dark). Every theme in
+this repo is a **community theme**: a single JSON file you install. Themes are
+*not* part of the app — they live in your own themes folder and load at runtime.
+
+Each file re-tints the editor's `--ps-*` color tokens. **Any token a theme omits
+falls back to the built-in Zinc value**, so a theme can re-color everything or
+just a few things.
+
+## The themes
+
+Browse [`themes/`](./themes) — every file there is a complete, ready-to-install
+theme. The collection grows over time: classic developer palettes alongside
+themes made for long-form writing, most shipping both a `light` and a `dark`
+variant. Each file's `label` and `description` (the first few lines of the JSON)
+tell you what it is and where its palette comes from, and the same description
+shows up in φ's theme picker once installed.
+
+## Install a theme
+
+1. Download the `.json` you want from [`themes/`](./themes).
+2. In φ: **Settings → Appearance → Color theme → Install theme…**, then pick the
+   file. It's validated and copied into your themes folder, and the theme
+   activates. The active **Appearance** (System / Light / Dark) decides whether
+   the theme's `light` or `dark` map applies.
+3. To tweak one, hit **Open themes folder**, edit the JSON, then re-open Settings
+   (themes reload) — or remove and re-install.
+
+## Write your own
+
+A theme is one JSON file:
+
+```jsonc
+{
+  "id": "my-theme",        // lowercase slug, also the file name; can't be "zinc"
+  "label": "My Theme",     // shown in the picker
+  "description": "…",      // one line in the picker (optional)
+  "light": { /* token → color */ },
+  "dark":  { /* token → color */ }
+}
+```
+
+- A theme may define `light`, `dark`, or both.
+- **Any token you omit falls back to the built-in Zinc value**, so you can ship a
+  partial theme that only re-tints a few things.
+- Every value must be a plain CSS color — hex (`#18181b`), `rgb()/rgba()`,
+  `hsl()/hsla()`, or a CSS color name. Anything else is dropped on install, so a
+  theme file can never inject anything but a color.
+
+### Themeable tokens
+
+Surfaces & text:
+`--ps-bg` (the writing page), `--ps-bg-elev`, `--ps-bg-sidebar`, `--ps-bg-rail`,
+`--ps-bg-hover`, `--ps-bg-active`, `--ps-text`, `--ps-text-muted`,
+`--ps-text-faint`, `--ps-border`, `--ps-border-strong`.
+
+Accent & semantics:
+`--ps-accent`, `--ps-accent-text`, `--ps-wikilink`, `--ps-danger`, `--ps-gold`,
+`--ps-flame`, `--ps-success`, `--ps-diff-add`, `--ps-diff-del`,
+`--ps-diff-add-bg`, `--ps-diff-del-bg`.
+
+Code syntax:
+`--ps-syn-comment`, `--ps-syn-keyword`, `--ps-syn-string`, `--ps-syn-number`,
+`--ps-syn-title`, `--ps-syn-attr`, `--ps-syn-tag`.
+
+> Tip: `--ps-bg` is the writing surface itself — set it to `#ffffff` / `#000000`
+> for an edge-to-edge white/black page like Zinc, or a soft tint for something
+> warmer. Structural tokens (fonts, spacing, radius, shadows) aren't themeable.
+
+The quickest way to start is to copy [`themes/nord.theme.json`](./themes/nord.theme.json),
+change the `id`, `label`, and colors, and install it.
+
+## Contributing
+
+Got a theme to share? See [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+
+## Credits
+
+Many themes here adapt palettes from existing open-source projects for φ's token
+system. Those projects keep their own licenses and copyrights; the full upstream
+notices — one per adapted theme — are reproduced in
+[`THIRD-PARTY-LICENSES.md`](./THIRD-PARTY-LICENSES.md). The φ adaptations in this
+repo are MIT-licensed (see [`LICENSE`](./LICENSE)).
+
+Such adaptations are unofficial and are **not affiliated with, sponsored by, or
+endorsed by** the upstream projects or their authors. A theme's name belongs to
+its respective project and is used only to identify the palette it adapts, and no
+third-party logos or trademarks are included.
+
+---
+
+<p align="center"><sub>φ · <a href="https://getpoiesis.com">getpoiesis.com</a></sub></p>
