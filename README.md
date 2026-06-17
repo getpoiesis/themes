@@ -24,13 +24,13 @@
 
 ## What these are
 
-φ ships with one built-in theme, **Zinc** (the official look — neutral grays, a
+φ ships with one built-in theme, **Phi** (the official look — neutral grays, a
 pure white page in light mode and a pure black page in dark). Every theme in
 this repo is a **community theme**: a single JSON file you install. Themes are
 *not* part of the app — they live in your own themes folder and load at runtime.
 
 Each file re-tints the editor's `--ps-*` color tokens. **Any token a theme omits
-falls back to the built-in Zinc value**, so a theme can re-color everything or
+falls back to the built-in Phi value**, so a theme can re-color everything or
 just a few things.
 
 ## The themes
@@ -58,7 +58,7 @@ A theme is one JSON file:
 
 ```jsonc
 {
-  "id": "my-theme",        // lowercase slug, also the file name; can't be "zinc"
+  "id": "my-theme",        // lowercase slug, also the file name; can't be "phi"
   "label": "My Theme",     // shown in the picker
   "description": "…",      // one line in the picker (optional)
   "light": { /* token → color */ },
@@ -67,7 +67,7 @@ A theme is one JSON file:
 ```
 
 - A theme may define `light`, `dark`, or both.
-- **Any token you omit falls back to the built-in Zinc value**, so you can ship a
+- **Any token you omit falls back to the built-in Phi value**, so you can ship a
   partial theme that only re-tints a few things.
 - Every value must be a plain CSS color — hex (`#18181b`), `rgb()/rgba()`,
   `hsl()/hsla()`, or a CSS color name. Anything else is dropped on install, so a
@@ -90,7 +90,7 @@ Code syntax:
 `--ps-syn-title`, `--ps-syn-attr`, `--ps-syn-tag`.
 
 > Tip: `--ps-bg` is the writing surface itself — set it to `#ffffff` / `#000000`
-> for an edge-to-edge white/black page like Zinc, or a soft tint for something
+> for an edge-to-edge white/black page like Phi, or a soft tint for something
 > warmer. Structural tokens (fonts, spacing, radius, shadows) aren't themeable.
 
 The quickest way to start is to copy [`themes/nord.theme.json`](./themes/nord.theme.json),
