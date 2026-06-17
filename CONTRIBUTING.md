@@ -8,7 +8,7 @@ to review. To add one:
    (`themes/nord.theme.json` is a good base) and changing the colors.
 3. Fill in the fields:
    - `id` — a lowercase slug, `^[a-z0-9][a-z0-9-]{0,38}$`, matching the file
-     name. It can't be `zinc` (the built-in theme).
+     name. It can't be `phi` (the built-in theme).
    - `label` — the name shown in φ's theme picker (≤ 60 chars).
    - `description` — one line for the picker (optional, ≤ 200 chars). If the
      palette is based on an existing project, credit it here.
@@ -16,7 +16,7 @@ to review. To add one:
      **both** so the theme works in either Appearance.
 4. **Follow the token contract** in the [README](./README.md#themeable-tokens).
    Only listed tokens are read; unknown keys and non-color values are dropped on
-   install. Any token you omit falls back to Zinc.
+   install. Any token you omit falls back to Phi.
 5. **Mind contrast.** Aim for WCAG AA on text against its background. The whole
    point is comfortable long-form writing.
 6. **Test it.** Install the file in φ (Settings → Appearance → Install theme…)
