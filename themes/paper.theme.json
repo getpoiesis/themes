@@ -1,0 +1,37 @@
+{
+  "id": "paper",
+  "label": "Paper",
+  "description": "An off-white page with soft ink, like good stock.",
+  "light": {
+    "--ps-bg": "#fbf9f4",
+    "--ps-bg-elev": "#fffdf8",
+    "--ps-bg-sidebar": "#f4f1e9",
+    "--ps-bg-rail": "#ece8dd",
+    "--ps-bg-hover": "rgba(60, 50, 30, 0.06)",
+    "--ps-bg-active": "rgba(60, 50, 30, 0.1)",
+    "--ps-text": "#26231d",
+    "--ps-text-muted": "#57524a",
+    "--ps-text-faint": "#6f6a60",
+    "--ps-border": "#e3ddd0",
+    "--ps-border-strong": "#d2cbbb",
+    "--ps-accent": "#4a5d74",
+    "--ps-accent-text": "#ffffff",
+    "--ps-wikilink": "#4a5d74"
+  },
+  "dark": {
+    "--ps-bg": "#1c1b18",
+    "--ps-bg-elev": "#25241f",
+    "--ps-bg-sidebar": "#181714",
+    "--ps-bg-rail": "#121210",
+    "--ps-bg-hover": "rgba(250, 245, 230, 0.06)",
+    "--ps-bg-active": "rgba(250, 245, 230, 0.1)",
+    "--ps-text": "#ece7db",
+    "--ps-text-muted": "#b5afa2",
+    "--ps-text-faint": "#8f897d",
+    "--ps-border": "#33312b",
+    "--ps-border-strong": "#45423a",
+    "--ps-accent": "#93a7c0",
+    "--ps-accent-text": "#1c1b18",
+    "--ps-wikilink": "#93a7c0"
+  }
+}

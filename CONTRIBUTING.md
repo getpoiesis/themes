@@ -8,8 +8,11 @@ to review. To add one:
    (`themes/nord.theme.json` is a good base) and changing the colors.
 3. Fill in the fields:
    - `id` — a lowercase slug, `^[a-z0-9][a-z0-9-]{0,38}$`, matching the file
-     name. It can't be `phi` (the built-in theme).
-   - `label` — the name shown in φ's theme picker (≤ 60 chars).
+     name. It must be unique: not `phi`, and not the id of any of the 13
+     official themes already in `themes/` (`catppuccin`, `dracula`,
+     `gruvbox`, `high-contrast`, `night`, `night-owl`, `nord`, `paper`,
+     `primer`, `sepia`, `solarized`, `tokyo-night`, `warm`).
+   - `label` — the name shown in φ Poiesis's theme picker (≤ 60 chars).
    - `description` — one line for the picker (optional, ≤ 200 chars). If the
      palette is based on an existing project, credit it here.
    - `light` and/or `dark` — maps of `--ps-*` token → CSS color. Prefer shipping
@@ -19,7 +22,7 @@ to review. To add one:
    install. Any token you omit falls back to Phi.
 5. **Mind contrast.** Aim for WCAG AA on text against its background. The whole
    point is comfortable long-form writing.
-6. **Test it.** Install the file in φ (Settings → Appearance → Install theme…)
+6. **Test it.** Install the file in φ Poiesis (Settings → Appearance → Install theme…)
    and check both light and dark, the editor, sidebar, wiki links, and a version
    diff.
 7. Open a **pull request** with a short description and, ideally, a screenshot.
