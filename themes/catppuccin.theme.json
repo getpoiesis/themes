@@ -10,7 +10,7 @@
     "--ps-bg-hover": "rgba(76, 79, 105, 0.06)",
     "--ps-bg-active": "rgba(76, 79, 105, 0.10)",
     "--ps-text": "#4c4f69",
-    "--ps-text-muted": "#6c6f85",
+    "--ps-text-muted": "#65687d",
     "--ps-text-faint": "#6a6d81",
     "--ps-border": "#ccd0da",
     "--ps-border-strong": "#bcc0cc",

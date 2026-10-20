@@ -1,0 +1,37 @@
+{
+  "id": "night",
+  "label": "Night",
+  "description": "Deep blue-black for late hours; a cool, dim day side.",
+  "light": {
+    "--ps-bg": "#eef1f6",
+    "--ps-bg-elev": "#f6f8fb",
+    "--ps-bg-sidebar": "#e4e8ef",
+    "--ps-bg-rail": "#d9dee8",
+    "--ps-bg-hover": "rgba(20, 30, 60, 0.06)",
+    "--ps-bg-active": "rgba(20, 30, 60, 0.1)",
+    "--ps-text": "#1a2233",
+    "--ps-text-muted": "#465068",
+    "--ps-text-faint": "#5b6580",
+    "--ps-border": "#d3d9e4",
+    "--ps-border-strong": "#bfc7d6",
+    "--ps-accent": "#3b5b92",
+    "--ps-accent-text": "#ffffff",
+    "--ps-wikilink": "#3b5b92"
+  },
+  "dark": {
+    "--ps-bg": "#0d1220",
+    "--ps-bg-elev": "#151c2e",
+    "--ps-bg-sidebar": "#0a0f1a",
+    "--ps-bg-rail": "#070b14",
+    "--ps-bg-hover": "rgba(200, 215, 255, 0.06)",
+    "--ps-bg-active": "rgba(200, 215, 255, 0.1)",
+    "--ps-text": "#d8deeb",
+    "--ps-text-muted": "#a0aac0",
+    "--ps-text-faint": "#7f8aa3",
+    "--ps-border": "#1f2840",
+    "--ps-border-strong": "#2c3754",
+    "--ps-accent": "#8fb0e6",
+    "--ps-accent-text": "#0d1220",
+    "--ps-wikilink": "#8fb0e6"
+  }
+}

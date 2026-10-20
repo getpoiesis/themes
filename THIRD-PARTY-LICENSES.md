@@ -1,6 +1,6 @@
 # Third-party licenses
 
-The color themes in this repository are adaptations for φ's `--ps-*` token
+The color themes in this repository are adaptations for φ Poiesis's `--ps-*` token
 system. The hex values they use are derived from the open-source palettes listed
 below. Each upstream project is licensed under the **MIT License**, and this file
 preserves the copyright notice for each as required by that license. The MIT

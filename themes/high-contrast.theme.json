@@ -1,0 +1,39 @@
+{
+  "id": "high-contrast",
+  "label": "High contrast",
+  "description": "Pure black and white with strong borders, for low vision and bright rooms.",
+  "light": {
+    "--ps-bg": "#ffffff",
+    "--ps-bg-elev": "#ffffff",
+    "--ps-bg-sidebar": "#ffffff",
+    "--ps-bg-rail": "#f0f0f0",
+    "--ps-bg-hover": "rgba(0, 0, 0, 0.1)",
+    "--ps-bg-active": "rgba(0, 0, 0, 0.18)",
+    "--ps-text": "#000000",
+    "--ps-text-muted": "#1f1f1f",
+    "--ps-text-faint": "#3d3d3d",
+    "--ps-border": "#000000",
+    "--ps-border-strong": "#000000",
+    "--ps-accent": "#0033cc",
+    "--ps-accent-text": "#ffffff",
+    "--ps-wikilink": "#0033cc",
+    "--ps-danger": "#b00000"
+  },
+  "dark": {
+    "--ps-bg": "#000000",
+    "--ps-bg-elev": "#000000",
+    "--ps-bg-sidebar": "#000000",
+    "--ps-bg-rail": "#111111",
+    "--ps-bg-hover": "rgba(255, 255, 255, 0.14)",
+    "--ps-bg-active": "rgba(255, 255, 255, 0.24)",
+    "--ps-text": "#ffffff",
+    "--ps-text-muted": "#f0f0f0",
+    "--ps-text-faint": "#d0d0d0",
+    "--ps-border": "#ffffff",
+    "--ps-border-strong": "#ffffff",
+    "--ps-accent": "#ffd60a",
+    "--ps-accent-text": "#000000",
+    "--ps-wikilink": "#ffd60a",
+    "--ps-danger": "#ff6b6b"
+  }
+}

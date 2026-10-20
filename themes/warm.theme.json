@@ -1,0 +1,37 @@
+{
+  "id": "warm",
+  "label": "Warm",
+  "description": "A sunlit cream page with a terracotta accent.",
+  "light": {
+    "--ps-bg": "#fffaf2",
+    "--ps-bg-elev": "#fffdf9",
+    "--ps-bg-sidebar": "#fbf2e4",
+    "--ps-bg-rail": "#f5e8d4",
+    "--ps-bg-hover": "rgba(120, 60, 20, 0.06)",
+    "--ps-bg-active": "rgba(120, 60, 20, 0.1)",
+    "--ps-text": "#2d2118",
+    "--ps-text-muted": "#5e4c3e",
+    "--ps-text-faint": "#776253",
+    "--ps-border": "#efe0cb",
+    "--ps-border-strong": "#e0cbae",
+    "--ps-accent": "#a8482a",
+    "--ps-accent-text": "#ffffff",
+    "--ps-wikilink": "#a8482a"
+  },
+  "dark": {
+    "--ps-bg": "#1f1915",
+    "--ps-bg-elev": "#2a221d",
+    "--ps-bg-sidebar": "#1a1511",
+    "--ps-bg-rail": "#13100d",
+    "--ps-bg-hover": "rgba(255, 225, 200, 0.06)",
+    "--ps-bg-active": "rgba(255, 225, 200, 0.1)",
+    "--ps-text": "#f2e6da",
+    "--ps-text-muted": "#c4b2a2",
+    "--ps-text-faint": "#9f8d7e",
+    "--ps-border": "#372d26",
+    "--ps-border-strong": "#4a3d33",
+    "--ps-accent": "#f0936c",
+    "--ps-accent-text": "#1f1915",
+    "--ps-wikilink": "#f0936c"
+  }
+}

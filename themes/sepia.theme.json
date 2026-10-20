@@ -1,0 +1,37 @@
+{
+  "id": "sepia",
+  "label": "Sepia",
+  "description": "Brown ink on aged paper, easy on the eyes for long reading.",
+  "light": {
+    "--ps-bg": "#f4ecd8",
+    "--ps-bg-elev": "#f8f1e0",
+    "--ps-bg-sidebar": "#ece2ca",
+    "--ps-bg-rail": "#e3d7bb",
+    "--ps-bg-hover": "rgba(91, 70, 54, 0.07)",
+    "--ps-bg-active": "rgba(91, 70, 54, 0.12)",
+    "--ps-text": "#433422",
+    "--ps-text-muted": "#5f4b37",
+    "--ps-text-faint": "#735d46",
+    "--ps-border": "#dccfb2",
+    "--ps-border-strong": "#cbbb98",
+    "--ps-accent": "#8a4b24",
+    "--ps-accent-text": "#ffffff",
+    "--ps-wikilink": "#8a4b24"
+  },
+  "dark": {
+    "--ps-bg": "#241d16",
+    "--ps-bg-elev": "#2e261d",
+    "--ps-bg-sidebar": "#1e1812",
+    "--ps-bg-rail": "#17120d",
+    "--ps-bg-hover": "rgba(240, 220, 190, 0.06)",
+    "--ps-bg-active": "rgba(240, 220, 190, 0.1)",
+    "--ps-text": "#eadcc3",
+    "--ps-text-muted": "#c2b196",
+    "--ps-text-faint": "#9e8e75",
+    "--ps-border": "#3a3026",
+    "--ps-border-strong": "#4d4033",
+    "--ps-accent": "#d9a271",
+    "--ps-accent-text": "#241d16",
+    "--ps-wikilink": "#d9a271"
+  }
+}
